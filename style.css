@@ -37,6 +37,11 @@ header figure{
     margin-left: 15px;
 }
 
+.whatsapp-mobile{
+
+    display: none;
+}
+
 
 .primeira-seção-da-main{
 
@@ -237,6 +242,13 @@ font-weight: bold;
 
 }
 
+.sessão-apoio figure{
+
+    width: 50vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .sessão-apoio h3{
 
     font-family: 'Roboto', sans-serif;
@@ -270,4 +282,216 @@ footer div h3{
 
     width: 25vw;
     font-size: 1.8rem;
+}
+
+@media (max-width: 860px){
+
+    header{
+
+        position: absolute top;
+    }
+    
+    
+    .barra-de-navegação{
+
+    display: none;
+    
+}
+
+.whatsapp-mobile{
+
+    display: block;
+    width: 6vh;
+}
+
+header figure{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.primeira-seção-da-main{
+
+    background-image: url(/Assets/Grupo\ 485.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120vh;
+
+}
+
+.primeira-seção-da-main div{
+    height: 31vh;
+    width: 80vw;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+.primeira-seção-da-main h1{
+
+font-size: 3.2rem;
+width: 65vw;
+text-align: center;
+
+}
+
+.segunda-seção-da-main{
+
+background-image: url(/Assets/Grupo\ 484.png);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+background-position: center;
+height: 140vh;
+display: flex;
+align-items: flex-start;
+
+
+}
+
+.segunda-seção-da-main div{
+
+   height: 35vh;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-evenly;
+   margin-top: 150px;
+
+
+}
+
+.segunda-seção-da-main div h2{
+
+    font-size: 4.6vh;
+    height: 18vh;
+    width: 43vw;
+    text-align: center;
+    color: #3A342F;
+    margin-bottom: 30px;
+    font-family: 'Roboto', serif;
+    font-weight: bold;
+    
+    }
+
+.segunda-seção-da-main div p{
+
+    width: 48vw;
+    height: 36vh;
+    font-size: 1.4rem;
+    font-weight: 300 light;
+    line-height: 3.9vh;
+}   
+
+.segunda-seção-da-main button{
+
+    width: 30vw;
+    height: 8vh;
+}
+
+.terceira-sessão-da-main{
+
+    background-image: url(/Assets/Grupo\ 496.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 140vh;
+    display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+
+}
+
+.terceira-sessão-da-main div{
+
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-evenly;
+   margin-top: 150px;
+   margin-left: 40px;
+
+}
+
+.terceira-sessão-da-main div h2{
+
+    font-size: 4.6vh;
+    text-align: justify;
+    height: 18vh;
+    width: 52vw;
+    color: #F4F2F3;
+    font-family: 'Roboto', serif;
+}
+
+.terceira-sessão-da-main div p{
+
+    width: 48vw;
+    height: 36vh;
+    font-size: 1.4rem;
+    font-weight: 300 light;
+    line-height: 3.9vh;
+}
+
+.terceira-sessão-da-main button{
+
+    width: 30vw;
+    height: 8vh;
+}
+
+.sessão-apoio div{
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sessão-apoio figure{
+
+    display: flex;
+    width: 56vw;
+    justify-content: space-between;
+}
+
+footer{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 130vh;
+    text-align: center;
+    font-size: 1.9rem;
+}
+
+footer .logo{
+
+    width: 32vw;
+    height: 10vh;
+}
+
+footer .barra-de-navegação{
+
+    display: flex;
+    width: 25vw;
+    justify-content: space-around;
+}
+
+footer div h3{
+
+    width: 25vw;
+    font-size: 2.5rem;
+}
+
+footer div{
+
+    width: 35vw;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
 }
