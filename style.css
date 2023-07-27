@@ -139,6 +139,7 @@ font-weight: bold;
     font-size: 2rem;
     font-weight: 300 light;
     line-height: 6vh;
+    font-family: 'Roboto', serif;
 }
 
 .primeiro-botão{
@@ -152,7 +153,7 @@ font-weight: bold;
     font-size: 1.2rem;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 30px;
     
 }
 
@@ -207,6 +208,7 @@ font-weight: bold;
     font-size: 2rem;
     font-weight: 300 light;
     line-height: 6vh;
+    font-family: 'Roboto', serif;
 }
 
 .segundo-botão{
@@ -220,7 +222,7 @@ font-weight: bold;
     font-size: 1.2rem;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 60px;
 
 }
 
@@ -239,6 +241,12 @@ font-weight: bold;
     width: 70vw;
     display: flex;
     justify-content: space-evenly;
+
+}
+
+.sessão-apoio img{
+
+    width: 20vw;
 
 }
 
@@ -284,11 +292,22 @@ footer div h3{
     font-size: 1.8rem;
 }
 
+footer nav{
+
+    display: none;
+}
+
+footer figure{
+
+    display: none;
+}
+
 @media (max-width: 860px){
 
     header{
 
-        position: absolute top;
+        position: sticky;
+        top: 0.1px;
     }
     
     
@@ -324,7 +343,7 @@ header figure{
 }
 
 .primeira-seção-da-main div{
-    height: 31vh;
+    height: 80vh;
     width: 80vw;
     display: flex;
     justify-content: space-evenly;
@@ -334,7 +353,7 @@ header figure{
 
 .primeira-seção-da-main h1{
 
-font-size: 3.2rem;
+font-size: 3rem;
 width: 65vw;
 text-align: center;
 
@@ -384,6 +403,7 @@ align-items: flex-start;
     font-size: 1.4rem;
     font-weight: 300 light;
     line-height: 3.9vh;
+    font-family: 'Roboto', serif;
 }   
 
 .segunda-seção-da-main button{
@@ -433,6 +453,8 @@ justify-content: flex-start;
     font-size: 1.4rem;
     font-weight: 300 light;
     line-height: 3.9vh;
+    font-family: 'Roboto', serif;
+    
 }
 
 .terceira-sessão-da-main button{
@@ -446,6 +468,11 @@ justify-content: flex-start;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.sessão-apoio img{
+
+    width: 25vw;
 }
 
 .sessão-apoio figure{
@@ -462,11 +489,16 @@ footer{
     justify-content: space-evenly;
     height: 130vh;
     text-align: center;
-    font-size: 1.9rem;
+    font-size: 1.7rem;
+}
+
+footer figure{
+    display: block;
 }
 
 footer .logo{
 
+    
     width: 32vw;
     height: 10vh;
 }
@@ -474,14 +506,15 @@ footer .logo{
 footer .barra-de-navegação{
 
     display: flex;
-    width: 25vw;
+    width: 35vw;
     justify-content: space-around;
 }
 
 footer div h3{
 
     width: 25vw;
-    font-size: 2.5rem;
+    font-size: 2rem;
+    text-align: center;
 }
 
 footer div{
@@ -489,6 +522,7 @@ footer div{
     width: 35vw;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 
